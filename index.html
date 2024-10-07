@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teenager Learning Boost Station</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="py-4">
+        <div class="container">
+            <h1 class="text-center mb-4">Teenager Learning Boost Station</h1>
+            <p class="text-center text-white mb-4">青少年学习加油站</p>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#study-tips">Study Tips</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" id="more-resources">More Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <section id="study-tips" class="mb-5">
+            <h2 class="text-center mb-4">Study Tips Overview</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-header bg-primary text-white">
+                            <i class="fas fa-book"></i> Chinese Learning Tips
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><strong>Reading Comprehension:</strong> Grasp main ideas, analyze characters</span>
+                                    <span>
+                                        <i class="fas fa-search-plus tip-details" data-tip="chinese-1"></i>
+                                        <i class="far fa-star tip-favorite" data-tip="chinese-1"></i>
+                                    </span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><strong>Writing Skills:</strong> Structure essays, use rhetorical devices</span>
+                                    <span>
+                                        <i class="fas fa-search-plus tip-details" data-tip="chinese-2"></i>
+                                        <i class="far fa-star tip-favorite" data-tip="chinese-2"></i>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-header bg-warning text-dark">
+                            <i class="fas fa-calculator"></i> Math Learning Tips
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><strong>Formula Memorization:</strong> Trigonometric function mnemonics</span>
+                                    <span>
+                                        <i class="fas fa-search-plus tip-details" data-tip="math-1"></i>
+                                        <i class="far fa-star tip-favorite" data-tip="math-1"></i>
+                                    </span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><strong>Problem-Solving:</strong> Geometric proof analysis steps</span>
+                                    <span>
+                                        <i class="fas fa-search-plus tip-details" data-tip="math-2"></i>
+                                        <i class="far fa-star tip-favorite" data-tip="math-2"></i>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-header bg-success text-white">
+                            <i class="fas fa-globe"></i> English Learning Tips
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><strong>Vocabulary:</strong> Root words, affixes, and association techniques</span>
+                                    <span>
+                                        <i class="fas fa-search-plus tip-details" data-tip="english-1"></i>
+                                        <i class="far fa-star tip-favorite" data-tip="english-1"></i>
+                                    </span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><strong>Grammar:</strong> Tenses and clause structures</span>
+                                    <span>
+                                        <i class="fas fa-search-plus tip-details" data-tip="english-2"></i>
+                                        <i class="far fa-star tip-favorite" data-tip="english-2"></i>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="word-game" class="text-center mb-5">
+            <div class="magic-box">
+                <h3 class="mb-4">Vocabulary Game</h3>
+                <a href="https://b_elkg0dnc1pg.v0.build/" target="_blank" class="btn btn-lg" id="start-game">
+                    Start Learning Journey!
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-4">
+        <p>&copy; 2023 Teenager Learning Boost Station. Let's work hard together for a bright future!</p>
+        <p class="text-muted">Made by class 7(1)</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
